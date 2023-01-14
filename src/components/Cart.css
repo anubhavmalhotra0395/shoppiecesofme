@@ -1,0 +1,133 @@
+.cart-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    border: 1px solid #d3d3d3;
+}
+.main-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.cart-inner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+.cart-inner1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0px;
+}
+.items-header2{
+    font-family: 'basic';
+    font-size: 60px;
+    margin-left: -50px;
+}
+.cart-title{
+    font-family: 'basic';
+    font-size: 30px;
+}
+.cart-description{
+    font-family: 'basic';
+    font-style: italic;
+    font-size: 18px;
+}
+.cart-input{
+    width:30px;
+    text-align: center;
+    border: none;
+}
+.cart-btn{
+    width: 25px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+.btn-container{
+    border: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-price{
+    font-family: 'basic';
+    font-size: 16px;
+}
+.total-price1{
+    font-family: 'basic2';
+    font-size: 18px;
+}
+.total-ship{
+    font-style: italic;
+    font-family: 'basic';
+    font-size: 14px;
+}
+.total-container{
+    margin-left: 0px;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+    .cart-container{
+padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid #d3d3d3;
+    }
+    .items-header2{
+        font-family: 'basic';
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .cart-title{
+        font-family: 'basic';
+        font-size: 18px;
+    }
+    .cart-description{
+        font-family: 'basic';
+        font-style: italic;
+        font-size: 10px;
+    }
+    .cart-inner2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .img-cart{
+        width: 150px !important;
+        height: 150px;
+    }
+    .cart-price{
+        font-family: 'basic';
+        font-size: 12px;
+    }
+    .total-price{
+        font-family: 'basic';
+        font-size: 12px;
+    }
+    .total-price1{
+        font-family: 'basic2';
+        font-size: 12px;
+    }
+    .total-ship{
+        font-style: italic;
+        font-family: 'basic';
+        font-size: 10px;
+    }
+    .items-header2{
+        font-family: 'basic';
+        font-size: 20px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,50 @@
+.slider-inner-header{
+    font-family: 'basic';
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: 300;
+    color:'black' !important;
+}
+.slider-inner-headerprice{
+    font-family: 'basic';
+    color: grey;
+    font-size: 14px;
+    padding-left: 30px;
+}
+.earringsinner{
+    display: flex;
+    flex-direction: column;
+  
+}
+.earring-link{
+    color: black;
+    text-decoration: none;
+}
+.earring-link:hover{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    .slider-inner-header{
+        font-family: 'basic';
+        font-size: 14px;
+        padding-left: 10px;
+        font-weight: 300;
+    }
+    .slider-inner-headerprice{
+        font-family: 'basic';
+        color: grey;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+
+    #earrings{
+    
+        border-top:2px solid black;
+        padding-top: 10px;
+    }
+
+
+}

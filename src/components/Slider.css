@@ -1,0 +1,25 @@
+.slider-container{
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+}
+.slider-header{
+    font-family: 'basic';
+    font-size: 60px;
+    margin-left:20px;
+}
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+
+    .slider-header{
+        font-family: 'basic';
+        font-size: 25px;
+        margin-left:0px;
+        margin-top: 0px;
+  
+            border-top:2px solid black;
+            padding-top: 10px;
+    }
+
+}

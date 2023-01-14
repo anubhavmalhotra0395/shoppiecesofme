@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'basic';
+    src: url(../fonts/brandon-grotesque-light-58a8a4b38001d.otf);
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.fade-out {
+
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+.fade-off{
+    opacity: 0;
+}
+
+  .navbar{
+      height: 70px;
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+      top: 0;
+      width: 100%;
+      justify-content: space-around;
+      background-color: white;
+      padding:0px 0px 0px 0px;
+        border:3px solid #f0f0f0;
+      position: relative;
+  }
+  
+  .navbar-container {
+
+      height: 40px;
+      display:flex;
+      align-items: center;
+
+      width: 100%;
+  }
+  .cart-icc{
+    float: none;
+    margin-top: 60px;
+    color: black;
+    display: block;
+    margin-left:550px !important;
+  }
+ 
+  .cart-icon{
+    margin-left: 30px;
+  }
+  .main-logo {
+      padding-top: 0px;
+      margin-left: 0px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 2rem;
+      display: flex;
+      justify-content: flex-start !important;
+      padding-top: 0px;
+      align-items: center;
+      width:240px;
+  }
+  
+  
+  .menu-icon {
+      display: none;
+  }
+  
+  .fa-bars {
+      color: black !important;
+    
+  
+    }
+  
+  .nav-menu {
+      display: flex;
+      list-style: none;
+      text-align: center;
+      width: 40vw;
+  
+      border-radius: 20px;
+      
+      
+    }
+ 
+  .items{
+    display:flex;
+    flex-direction: row;
+  }
+    .nav-item {
+      height: 80px;
+    }
+
+    .nav-links {
+      color:black;
+      display: flex;
+      align-items: center;
+      text-decoration: none !important;
+      padding-right:20px;
+      padding-left:20px;
+      font-size:18px;
+      margin-top: 5px;
+      transition:1s all ease;
+      height: 100%;
+      font-family: 'basic';
+    }
+  
+    .nav-links:hover {
+        color:black;
+        transition: 0.5s all ease-in-out;
+    
+      }
+  
+    #fa{
+      color:black;
+      margin-top: 0px;
+      padding-right: 20px;
+    }
+
+    
+  
+  
+    @media screen and (max-width: 960px) {
+      .NavbarItems {
+        position: relative;
+      }
+    
+      .nav-menu {
+          padding:0px 0px 250px 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        left: -100%;
+        opacity: 1;
+    transition: 0.3s ease-in-out;
+        justify-content: center;
+        align-items: center;
+      }
+      #fa{
+        color:black;
+        margin-top: 0px;
+        padding-right: 20px;
+        display: none;
+      }
+    
+      .nav-menu.active { 
+        background: white;
+        background-position: center;       
+        left: 0px;
+        top:0px;
+        border: 2px solid black;
+        z-index: 99 !important;
+        opacity: 1;
+        width: 85%;
+        height: 600px !important;
+        display: flex;
+        justify-content:center;
+        padding-top: 200px;
+        align-items: center;
+      }
+  
+      .nav-item {
+          height: 80px;
+          width: 100%;
+        }
+    
+      .nav-links {
+        text-align: center;
+        padding-top:20px;
+        padding-right:0px;
+        padding-left:0px;
+        width: 100%;
+        display: block;
+        color:black;
+        transition: none;
+      }
+  
+    
+  
+      .menu-icon {
+       
+        display: block !important;
+
+        top: 0;
+        left: 0;
+        margin-top:30px !important;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        position: absolute !important;
+        z-index: 1000 !important;
+        color: black;
+      }
+    
+      .fa-times {
+      color: black;
+        font-size: 2rem;
+  
+      }
+      .fa-bars{
+        color: black!important;
+      }
+    
+    
+  
+      .social{
+        margin-left: 230px;
+      }
+  
+      .main-logo {
+        padding-top: 0px;
+        justify-self: start;
+        justify-content: flex-start;
+        margin-top: -70px;
+        margin-left: -30px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        width:200px !important;
+    }
+    .items{
+      display:flex;
+      flex-direction: column;
+      margin-right:0px;
+    }
+  .main-logo-2{
+    margin-top: 20px;
+    visibility: hidden;
+  }
+  
+  .info2{
+    visibility: hidden;
+  }
+    }
+  
+  
+  
+    @media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+      .menu-icon {
+       
+        display: block;
+
+        top: 0;
+        left: 0;
+        margin-left: 40px;
+        margin-top:-15px !important;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    
+        z-index: 1000 !important;
+    
+      }
+      .main-logo {
+        padding-top: 0px;
+        justify-self: start;
+        justify-content: flex-start;
+        margin-top: 0px;
+        margin-left: 93px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        width:200px !important;
+    }
+    .cart-icc{
+      float: none;
+      margin-top: 60px;
+      color: black;
+      display: block;
+      margin-left:50px !important;
+    }
+    .marquee2{
+      background-color: white !important;
+      display: flex;
+      flex-direction: row;
+      border-bottom: 2px solid black !important;
+      border-top: 2px solid black !important;
+      height: 25px !important;
+    }
+    .marquee-inner2{
+      color:black;
+      font-size: 12px;
+      margin-top: 12px;
+      margin-right: 20px;
+      font-family: 'basic';
+    }
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
