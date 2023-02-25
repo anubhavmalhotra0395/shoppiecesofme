@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/shoppiecesofme/static/css/main.524a45d7.css",
-    "main.js": "/shoppiecesofme/static/js/main.90d09afc.js",
+    "main.css": "/shoppiecesofme/static/css/main.257ed995.css",
+    "main.js": "/shoppiecesofme/static/js/main.165ac2be.js",
     "static/js/787.23170c61.chunk.js": "/shoppiecesofme/static/js/787.23170c61.chunk.js",
     "static/media/love1.webp": "/shoppiecesofme/static/media/love1.dcabebfb57616cd4fda2.webp",
     "static/media/eve1.webp": "/shoppiecesofme/static/media/eve1.f0bafe302b6c8bbd0356.webp",
     "static/media/reign1.webp": "/shoppiecesofme/static/media/reign1.e995a2db346b2281a405.webp",
-    "static/media/herocover.webp": "/shoppiecesofme/static/media/herocover.f5584c446353edbcc69b.webp",
     "static/media/5.webp": "/shoppiecesofme/static/media/5.21a1e5749f2c458b9802.webp",
     "static/media/honey1.webp": "/shoppiecesofme/static/media/honey1.3ec448cee7c17d7da7d0.webp",
     "static/media/venice1.webp": "/shoppiecesofme/static/media/venice1.4294e1923b9408041bb6.webp",
@@ -42,6 +41,7 @@
     "static/media/baby1.webp": "/shoppiecesofme/static/media/baby1.98acf5645dc10987daf0.webp",
     "static/media/evelyn1.webp": "/shoppiecesofme/static/media/evelyn1.bcd44987d8a1aade8c43.webp",
     "static/media/vbaby.webp": "/shoppiecesofme/static/media/vbaby.b9db12b0e7cdb4c68ab5.webp",
+    "static/media/hercover1.webp": "/shoppiecesofme/static/media/hercover1.9f18dd6cc1e5228c3a86.webp",
     "static/media/gigi2.webp": "/shoppiecesofme/static/media/gigi2.11f8c4bf1bc2c48087da.webp",
     "static/media/brandon-grotesque-black-58a8a3e824392.otf": "/shoppiecesofme/static/media/brandon-grotesque-black-58a8a3e824392.9ad36c335e917b52911d.otf",
     "static/media/ari2.webp": "/shoppiecesofme/static/media/ari2.0962825e51a5ec50981d.webp",
@@ -53,12 +53,12 @@
     "static/media/slick.ttf": "/shoppiecesofme/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/shoppiecesofme/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/shoppiecesofme/index.html",
-    "main.524a45d7.css.map": "/shoppiecesofme/static/css/main.524a45d7.css.map",
-    "main.90d09afc.js.map": "/shoppiecesofme/static/js/main.90d09afc.js.map",
+    "main.257ed995.css.map": "/shoppiecesofme/static/css/main.257ed995.css.map",
+    "main.165ac2be.js.map": "/shoppiecesofme/static/js/main.165ac2be.js.map",
     "787.23170c61.chunk.js.map": "/shoppiecesofme/static/js/787.23170c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.524a45d7.css",
-    "static/js/main.90d09afc.js"
+    "static/css/main.257ed995.css",
+    "static/js/main.165ac2be.js"
   ]
 }
